@@ -131,9 +131,7 @@ function Home() {
                   <div className="course-image">{course.image}</div>
                   <Card.Body>
                     <div className="course-rating mb-2">
-                      <span className="text-warning">
-                        {'★'.repeat(Math.floor(course.rating))}
-                      </span>
+                    
                       <span className="ms-2 text-muted small">
                         {course.rating} ({course.students}+)
                       </span>

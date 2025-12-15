@@ -7,41 +7,54 @@ import './Home.css'
 function Home() {
   const featuredCourses = [
     {
-      id: 1,
-      title: 'Complete Web Development',
-      instructor: 'John Doe',
-      price: '$99',
-      rating: 4.8,
-      students: 12500,
-      image: '🌐'
-    },
-    {
-      id: 2,
-      title: 'UI/UX Design Masterclass',
-      instructor: 'Jane Smith',
-      price: '$79',
-      rating: 4.9,
-      students: 8900,
-      image: '🎨'
-    },
-    {
-      id: 3,
-      title: 'Digital Marketing Pro',
-      instructor: 'Mike Johnson',
-      price: '$89',
-      rating: 4.7,
-      students: 11200,
-      image: '📈'
-    },
-    {
-      id: 4,
-      title: 'Python for Data Science',
-      instructor: 'Sarah Wilson',
-      price: '$109',
-      rating: 4.9,
-      students: 15600,
-      image: '🐍'
-    }
+    id: 1,
+    title: 'Full Stack Web Development (MERN)',
+    instructor: 'Abishek ',
+    price: '₹7,999',
+    originalPrice: '₹14,999',
+    rating: 4.9,
+    students: 18500,
+    duration: '45 hours',
+    image: '💻',
+    level: 'Beginner'
+  },
+  {
+    id: 2,
+    title: 'React.js & Modern Frontend Development',
+    instructor: 'Rahul ',
+    price: '₹5,999',
+    originalPrice: '₹11,999',
+    rating: 4.8,
+    students: 14200,
+    duration: '32 hours',
+    image: '⚛️',
+    level: 'Intermediate'
+  },
+  {
+    id: 3,
+    title: 'Node.js & Express Backend Development',
+    instructor: 'Sneha',
+    price: '₹6,499',
+    originalPrice: '₹12,999',
+    rating: 4.7,
+    students: 11800,
+    duration: '30 hours',
+    image: '🟢',
+    level: 'Intermediate'
+  },
+  {
+    id: 4,
+    title: 'Python for Data Science & AI',
+    instructor: 'Arjun ',
+    price: '₹8,499',
+    originalPrice: '₹15,999',
+    rating: 4.9,
+    students: 20100,
+    duration: '50 hours',
+    image: '🐍',
+    level: 'Beginner'
+  },
+ 
   ]
 
   const stats = [
@@ -220,4 +233,6 @@ function Home() {
 }
 
 export default Home
+
+
 

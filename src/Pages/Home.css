@@ -3,7 +3,7 @@
   color: white;
   padding-top: 100px;
   padding-bottom: 80px;
-  margin-top: 76px;
+  /* margin-top: 76px; */
 }
 
 .min-vh-75 {
@@ -39,7 +39,7 @@
 .hero-illustration {
   font-size: 20rem;
   opacity: 0.3;
-  animation: float 3s ease-in-out infinite;
+  
 }
 
 @keyframes float {
@@ -116,6 +116,7 @@
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: white;
 }
+
 
 .course-title {
   font-size: 1.25rem;
